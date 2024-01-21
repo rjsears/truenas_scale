@@ -7,7 +7,8 @@ VERSION = "1.0.0a (2024-01-21)"
 """
 Simple python script that utilizes sas3ircu to locate the SAS controllers on your
 system and then allows you to select the controller and outputs all drives on that
-controller so you can blink or unblink them for location purposes. 
+controller so you can blink or unblink them for location purposes. Makes finding
+drives on your system easy!
 
 Used the Rich library to output a nicely formatted table. 
 
