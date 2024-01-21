@@ -10,6 +10,9 @@ system and then allows you to select the controller and outputs all drives on th
 controller so you can blink or unblink them for location purposes. 
 
 Used the Rich library to output a nicely formatted table. 
+
+Works on TrueNAS Scale (Linux based) and SAS3IRCU, it might also work with
+SAS2IRCU. 
 """
 
 
