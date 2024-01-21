@@ -68,7 +68,7 @@ def print_drive_table(data):
     print()
     print()
     console = Console()
-    table = Table(title=f':memo:  [bold][green]Hard Drive Information[/][/] :memo:', title_style='no reverse', show_header=True, show_lines=False, header_style="bold blue")
+    table = Table(title=f':memo:  [bold][green]Hard Drive Information[/][/] :memo:', title_style='no reverse', show_header=True, show_lines=True, header_style="bold blue")
     table.add_column("Enclosure", style="cyan", justify="center")
     table.add_column("Drive", style="cyan", justify="center")
     table.add_column("Size (in MB)", style="cyan", justify="center")
