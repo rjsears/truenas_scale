@@ -17,7 +17,6 @@ SAS2IRCU.
 """
 
 
-
 from rich.console import Console
 from rich.table import Table
 import subprocess
@@ -71,7 +70,7 @@ def print_drive_table(data):
     console = Console()
     table = Table(title=f':memo:  [bold][green]Hard Drive Information[/][/] :memo:', title_style='no reverse', show_header=True, show_lines=False, header_style="bold blue")
     table.add_column("Enclosure", style="cyan", justify="center")
-    table.add_column("Slot", style="cyan", justify="center")
+    table.add_column("Drive", style="cyan", justify="center")
     table.add_column("Size (in MB)", style="cyan", justify="center")
     table.add_column("Manufacturer", style="cyan", justify="center")
     table.add_column("Model Number", style="cyan", justify="center")
@@ -121,14 +120,14 @@ if __name__ == "__main__":
         # Ask the user if they want to locate or stop locating a drive
         action = input("Choose an action: (blink/unblink) ")
         if action == "blink":
-            slot_to_locate = input("Enter the slot number to locate: ")
+            slot_to_locate = input("Enter the drive number to locate: ")
             corresponding_enclosure = next((enclosure for enclosure, slot, *_ in drive_info_matches if slot == slot_to_locate), None)
             if corresponding_enclosure is not None:
                 locate_drive(controller_info[0][0], corresponding_enclosure, slot_to_locate)
             else:
                 print("Invalid slot number. Exiting.")
         elif action == "unblink":
-            slot_to_stop = input("Enter the slot number to stop location blinking: ")
+            slot_to_stop = input("Enter the drive number to stop location blinking: ")
             corresponding_enclosure = next((enclosure for enclosure, slot, *_ in drive_info_matches if slot == slot_to_stop), None)
             if corresponding_enclosure is not None:
                 stop_locate_drive(controller_info[0][0], corresponding_enclosure, slot_to_stop)
