@@ -9,12 +9,12 @@ Just some scripts I use to manage/monitor my TrueNAS Scale Servers
 <h4 align="center">Be sure to  :star:  my repo so you can keep up to date on any updates and progress!</h4>
 <br>
 <div align="center">
-    <a href="https://github.com/rjsears/chia_plot_manager/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rjsears/chia_plot_manager?style=plastic"></a>
-    <a href="https://github.com/rjsears/chia_plot_manager/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/rjsears/chia_plot_manager?style=plastic"></a>
-    <a href="https://github.com/rjsears/chia_plot_manager/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/rjsears/chia_plot_manager?style=plastic"></a>
- <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/chia_plot_manager?style=plastic">
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/chia_plot_manager?style=plastic">
+    <a href="https://github.com/rjsears/chia_plot_manager/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rjsears/truenas_scale?style=plastic"></a>
+    <a href="https://github.com/rjsears/chia_plot_manager/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/rjsears/truenas_scale?style=plastic"></a>
+    <a href="https://github.com/rjsears/chia_plot_manager/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/rjsears/truenas_scale?style=plastic"></a>
+ <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/truenas_scale?style=plastic">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/truenas_scale?style=plastic">
 </h4>
 </div><br><br>
-<b><em> Now fully supports pools and automatic removal of old plots on a one-by-one basis when replacing them with new portable pool plots! Also includes a harvester-wide UUID search allowing you to locate any drive on any harvester by UUID and determine its mountpoint! <br><br> 
+<b><em>  <br><br> 
  
