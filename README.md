@@ -44,7 +44,7 @@ error LED. Just rerun it again to `unblink` that drive.
 
  ### <a name="dependencies"></a>Dependencies
 <ul>
- <li><a href="https://support.lenovo.com/us/en/downloads/ds116901-sas3ircu-command-line-utility-for-storage-management-for-linux">SAS3IRCU Command Line Utility</a> Required to report on SAS Controller</li>
+ <li><a href="https://support.lenovo.com/us/en/downloads/ds116901-sas3ircu-command-line-utility-for-storage-management-for-linux">SAS3IRCU Command Line Utility</a> - Required to report on SAS Controller</li>
  <li><a href="https://github.com/willmcgugan/rich">RICH</a> - Used to generate report</li>
  
  </ul>
