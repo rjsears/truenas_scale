@@ -10,7 +10,7 @@ Just some scripts I use to manage/monitor my TrueNAS Scale Servers
     <a href="https://github.com/rjsears/truenas_scale/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rjsears/truenas_scale?style=plastic"></a>
     <a href="https://github.com/rjsears/truenas_scale/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/rjsears/truenas_scale?style=plastic"></a>
     <a href="https://github.com/rjsears/truenas_scale/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/rjsears/truenas_scale?style=plastic"></a>
- <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/truenas_scale?style=plastic">
+ <!<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/truenas_scale?style=plastic">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/truenas_scale?style=plastic">
 </h4>
 </div><br><br>
