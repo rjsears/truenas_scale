@@ -14,7 +14,7 @@ Just some scripts I use to manage/monitor my TrueNAS Scale Servers
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/truenas_scale?style=plastic">
 </h4>
 </div><br><br>
-<b><em>  <br><br>
+
 ### <a name="overview"></a>Locate Drive
 
 <div align="left">
@@ -31,6 +31,14 @@ SAS2IRCU.
  
  <hr>
  <a name="locate_drives" href="https://github.com/rjsears/truenas_scale"><img src="https://github.com/rjsears/truenas_scale/blob/main/images/locate_drives_screenshot.png" alt="Locate Drives"></a><br>
+
+
+### <a name="overview"></a>Installation and Usage
+
+Download the script and chmod 755 and then simply run it. When you do it will ask you which controller and scan
+that controller, outputting what you see below. You can then select `blink` or `unblink` and it will ask you what
+drive. Enter the drive number, and if you are in a system supported by SAS3IRCU, it will start flashing the drive
+error LED. Just rerun it again to `unblink` that drive. 
 
 
 
