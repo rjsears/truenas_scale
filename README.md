@@ -1,6 +1,4 @@
  <h2 align="center">
-  <a name="locate_drives" href="https://github.com/rjsears/truenas_scale"><img src="https://github.com/rjsears/truenas_scale/blob/main/images/locate_drives_screenshot.png" alt="Locate Drives"></a><br>
-
   TrueNAS Scale Scripts
   </h2>
   <p align="center">
@@ -17,4 +15,18 @@ Just some scripts I use to manage/monitor my TrueNAS Scale Servers
 </h4>
 </div><br><br>
 <b><em>  <br><br> 
+ ### <a name="overview"></a>Locate Drive
+<div align="left">
+<hr>
+ <a name="locate_drives" href="https://github.com/rjsears/truenas_scale"><img src="https://github.com/rjsears/truenas_scale/blob/main/images/locate_drives_screenshot.png" alt="Locate Drives"></a><br>
+
+
+
+ ### <a name="dependencies"></a>Dependencies
+<ul>
  
+ <li><a href="https://support.lenovo.com/us/en/downloads/ds116901-sas3ircu-command-line-utility-for-storage-management-for-linux"></a>SAS3IRCU Command Line Utility</li>
+ <li><a href="https://github.com/willmcgugan/rich">RICH</a> - Used to generate report</li>
+ 
+ </ul>
+ <hr>
