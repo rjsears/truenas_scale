@@ -13,7 +13,8 @@ Just some scripts I use to manage/monitor my TrueNAS Scale Servers
  <!<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/rjsears/truenas_scale?style=plastic">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rjsears/truenas_scale?style=plastic">
 </h4>
-</div><br><br>
+  <hr>
+</div>
 
 ### <a name="overview"></a>Locate Drive
 
