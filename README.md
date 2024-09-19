@@ -50,3 +50,13 @@ error LED. Just rerun it again to `unblink` that drive.
  
  </ul>
  <hr>
+
+## Author
+**Richard J. Sears** - *richardjsears@gmail.com* - [The RS Technical Group, Inc.](http://github.com/rjsears)
+
+## License
+This project is licensed under the MIT License - see the MIT License for details
+
+## Acknowledgments
+* **My Amazing and loving family!** My wonderful wife and kids put up with all my coding and automation projects and encouraged me in everything. Without them, this project would not be possible.
+* **My brother James**, who is a continual source of inspiration to me and others. Everyone should have a brother as awesome as mine!
